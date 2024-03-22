@@ -1,8 +1,4 @@
-import './ExploreContainer.css';
-
-interface ContainerProps { }
-
-const ExploreContainer: React.FC<ContainerProps> = () => {
+export default function Text(){
   return (
     <div id="container">
       <strong>Ready to create an app?</strong>
@@ -10,5 +6,3 @@ const ExploreContainer: React.FC<ContainerProps> = () => {
     </div>
   );
 };
-
-export default ExploreContainer;
